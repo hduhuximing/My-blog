@@ -8,7 +8,7 @@
 
 [如何使用docsify搭建文档类型的网站](./docs/how-to-use-docsify.md)
 
-[在线观看](https://hduhuximing.github.io/My-blog/.)
+[在线观看](https://hduhuximing.github.io/my_blog/.)
 
 ### 安利一个在线学习Java的文档javaGuide，实习和校招都是看这个
 
