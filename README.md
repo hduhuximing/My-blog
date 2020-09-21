@@ -21,4 +21,5 @@
 
 **初入社会的菜鸡**
 
-![](https://imgkr.cn-bj.ufileos.com/66f3a716-b3cc-469b-9b61-8be00244305c.png)
+  <a href="https://github.com/hduhuximing"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="本人github">
+  </a>
