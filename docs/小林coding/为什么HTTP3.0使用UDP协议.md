@@ -23,7 +23,7 @@
 
 HTTP2.0是2015年推出的，还是比较年轻的，其重要的**二进制分帧协议**、**多路复用**、**头部压缩**、**服务端推送**等重要优化使HTTP协议真正上了一个新台阶。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbLc4Via8QJNT7CiaxwPVicfAWBoA4eeU0n93gCmrYQHpRuSdpnIuysxqSK4oZshHicfdn520ERkHhaMg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184052655](为什么HTTP3.0使用UDP协议/image-20200922184052655.png)
 
 像谷歌这种重要的公司并没有满足于此，而且想继续提升HTTP的性能，花最少的时间和资源获取极致体验。
 
@@ -36,7 +36,7 @@ HTTP2.0是2015年推出的，还是比较年轻的，其重要的**二进制分�
 
 熟悉HTTP2.0协议的同学应该知道，这些缺点基本都是由于TCP协议引起的，**水能载舟亦能覆舟**，其实TCP也很无辜呀！
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbLc4Via8QJNT7CiaxwPVicfAWEgV7ibN2ic5A1liaIDmuDarX5e10ATTa6ArIQfE2Foaib19aoVa8XewzKw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184124250](为什么HTTP3.0使用UDP协议/image-20200922184124250.png)
 
 在我们眼里，TCP是面向连接、可靠的传输层协议，当前几乎所有重要的协议和应用都是基于TCP来实现的。
 
@@ -56,7 +56,7 @@ HTTP2.0是2015年推出的，还是比较年轻的，其重要的**二进制分�
 
 从上面的对比可以知道，谷歌要想**从TCP上进行改造升级绝非易事**，但是UDP虽然没有TCP为了保证可靠连接而引发的问题，但是**UDP本身不可靠，又不能直接用**。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbeSrsLjuicUR0ounIDDw9BqsaeQjwcFF4kdUH8wiaKE7vb6MNDeIS4xwZtDagnoqzuq4k7zRfsfp3Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184141070](为什么HTTP3.0使用UDP协议/image-20200922184141070.png)
 
 综合而知，谷歌决定在**UDP基础上改造一个具备TCP协议优点的新协议**也就顺理成章了，这个新协议就是**QUIC协议**。
 
@@ -64,7 +64,7 @@ HTTP2.0是2015年推出的，还是比较年轻的，其重要的**二进制分�
 
 QUIC其实是**Quick UDP Internet Connections**的缩写，直译为快速UDP互联网连接。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbeSrsLjuicUR0ounIDDw9BqU0PYGITK0F1HibGNIsCpmDwaLwvleFDyclNT9uNsuZRiaS5suAOtwa7A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184150686](为什么HTTP3.0使用UDP协议/image-20200922184150686.png)
 
 我们来看看维基百科对于QUIC协议的一些介绍：
 
@@ -76,7 +76,7 @@ QUIC其实是**Quick UDP Internet Connections**的缩写，直译为快速UDP互
 
 HTTP3.0又称为**HTTP Over QUIC**，其**弃用TCP协议**，改为使用**基于UDP协议**的QUIC协议来实现。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbeSrsLjuicUR0ounIDDw9BqTECEPGKLmJRnMx0eLlJKhdricgoFwTHnIRCZ4TBADx9P74icr1bmiaE2A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184201070](为什么HTTP3.0使用UDP协议/image-20200922184201070.png)
 
 ## 3. QUIC协议详解
 
@@ -84,7 +84,7 @@ HTTP3.0又称为**HTTP Over QUIC**，其**弃用TCP协议**，改为使用**基�
 
 HTTP3.0既然选择了QUIC协议，也就意味着HTTP3.0基本继承了HTTP2.0的强大功能，并且进一步解决了HTTP2.0存在的一些问题，同时必然引入了新的问题。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbeSrsLjuicUR0ounIDDw9Bqtnm9R29UffVNzT8mD2GduVtwYgkgjg1pNPhwicjibfqUw4ERRMSSlX9Q/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184214560](为什么HTTP3.0使用UDP协议/image-20200922184214560.png)
 
 QUIC协议必须要实现HTTP2.0在TCP协议上的重要功能，同时解决遗留问题，我们来看看QUIC是如何实现的。
 
@@ -94,7 +94,7 @@ QUIC协议必须要实现HTTP2.0在TCP协议上的重要功能，同时解决遗
 
 队头阻塞问题可能**存在于HTTP层和TCP层**，在HTTP1.x时两个层次都存在该问题。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qYHJ1881b850b7sTeiaCgpgzS0ozJTRMhiam4nIWcgPkt4jicMIV2Hs9HibOeskgJNbmZpygL5mlK8MyQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184226960](为什么HTTP3.0使用UDP协议/image-20200922184226960.png)
 
 HTTP2.0协议的**多路复用机制**解决了HTTP层的队头阻塞问题，但是在**TCP层仍然存在队头阻塞问题**。
 
@@ -106,7 +106,7 @@ QUIC协议是基于UDP协议实现的，在一条链接上可以有**多个流**
 
 衡量网络建链的常用指标是**RTT** Round-Trip Time，也就是数据包一来一回的时间消耗。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qYHJ1881b850b7sTeiaCgpgzI88TlibC1PJjJkE81embGI24bMzsyxicYSFiad1oMiaFdRcSWPcRBkeZWQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184237007](为什么HTTP3.0使用UDP协议/image-20200922184237007.png)
 
 RTT包括三部分：**往返传播时延**、**网络设备内排队时延**、**应用程序数据处理时延**。
 
