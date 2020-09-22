@@ -1,5 +1,6 @@
 # 程序员漫漫路
-<p align="center">
+
+<p>
   <a href="https://hduhuximing.github.io/my_blog/"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="阅读"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-JavaGuide-lightgrey.svg" alt="公众号"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Java面试突击-important.svg" alt="公众号"></a>
@@ -17,11 +18,10 @@
 - 码云：https://gitee.com/SnailClimb/JavaGuide-Interview
 
 ### 个人github
+
 - [算法leetcode部分题解](https://github.com/hduhuximing/MathAndInterview)
 - [面试资料](https://github.com/hduhuximing/workspace)
 
 ### 作者介绍
-**初入社会的菜鸡**
-  <a href="https://github.com/hduhuximing">
-  <img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="本人github">
-  </a>
+
+**初入社会的菜鸡程序员**
