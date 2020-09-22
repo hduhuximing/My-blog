@@ -19,9 +19,9 @@
 ### 个人github
 - [算法leetcode部分题解](https://github.com/hduhuximing/MathAndInterview)
 - [面试资料](https://github.com/hduhuximing/workspace)
+
 ### 作者介绍
-
 **初入社会的菜鸡**
-
-  <a href="https://github.com/hduhuximing"><img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="本人github">
+  <a href="https://github.com/hduhuximing">
+  <img src="https://img.shields.io/badge/阅读-read-brightgreen.svg" alt="本人github">
   </a>
