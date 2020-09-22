@@ -11,7 +11,7 @@
 - QUIC协议的重要特性
 - HTTP3.0和QUIC协议的前景和应用效果
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/wAkAIFs11qbb0zibxdcPJL2VYy4tQOp2VBib4FSjxXIfBVNnklrfnCTqVyiaBvee5quQxdgc2LX6r4EOXprCepAYQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![image-20200922184530466](为什么HTTP3.0使用UDP协议/image-20200922184530466.png)
 
 ## 2.HTTP2.0和HTTP3.0
 
