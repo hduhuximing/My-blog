@@ -16,7 +16,7 @@ Java核心技术 *2020-09-22*
 
 接着用top -H -p pid来找到cpu使用率比较高的一些线程。
 
-![image-20200923220107507](picture/image-20200923220107507.png)
+![image-20200923220107507](picture/image-20200923215936225.png)
 
 然后将占用最高的pid转换为16进制`printf '%x\n' pid`得到nid
 
