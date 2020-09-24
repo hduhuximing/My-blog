@@ -7,6 +7,8 @@
   *[SpringIOC的手动实现](./docs/Spring/SpringIOC.md)
   *[Spring面试题](./docs/Spring/Spring经典面试题汇总.md)
   *[IOC循环依赖](./docs/Spring/IOC之循环依赖处理.md)
+  *[只有构造函数的循环依赖](./docs/Spring/Spring只有构造器注入的时候会出现循环依赖问题.md)
+  *[AOP为什么用三级缓存以及AOP的](./docs/Spring/spring为什么用三级缓存以及AOP.md)
   
 * Reactor3翻译
 
