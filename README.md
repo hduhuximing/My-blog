@@ -33,7 +33,8 @@
 * Mysql
 
   * [mysql锁简单讲解](./docs/Mysql/面试命中率90%25的点%20——%20MySQL锁.md)
-  
+  * [mysql优化原理简单讲解](./docs/Mysql/MySQL优化原理简单讲解.md)
+
 * Spring
 
   * [Spring常见注解](./docs/Spring/常见的%20Spring%20注解概览.md)

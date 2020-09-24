@@ -1,7 +1,7 @@
 * Mysql
 
   * [mysql锁简单讲解](./docs/Mysql/面试命中率90%25的点%20——%20MySQL锁.md)
-  
+  * [mysql优化原理简单讲解](./docs/Mysql/MySQL优化原理简单讲解.md)
 * Spring
 
   * [SpringIOC的手动实现](./docs/Spring/SpringIOC.md)
