@@ -7,7 +7,7 @@
   <a href="https://xiaozhuanlan.com/javainterview?rel=javaguide"><img src="https://img.shields.io/badge/Java-面试指南-important" alt="投稿"></a>
 </p>
 
-[如何使用docsify搭建文档类型的网站](./docs/how-to-use-docsify.md)
+[基于Guide哥教的方法实现网站-----如何使用docsify搭建文档类型的网站](./docs/how-to-use-docsify.md)
 
 [在线观看](https://hduhuximing.github.io/my_blog/.)
 
@@ -21,6 +21,7 @@
 
 - [算法leetcode部分题解](https://github.com/hduhuximing/MathAndInterview)
 - [面试资料](https://github.com/hduhuximing/workspace)
+- [Spring的学习](https://github.com/hduhuximing/SpringLearn/network/alerts)
 
 ### 作者介绍
 
