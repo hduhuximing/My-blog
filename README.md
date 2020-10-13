@@ -22,13 +22,15 @@
 - [算法leetcode部分题解](https://github.com/hduhuximing/MathAndInterview)
 - [面试资料](https://github.com/hduhuximing/workspace)
 - [Spring的学习](https://github.com/hduhuximing/SpringLearn/network/alerts)
-
 ### 作者介绍
 
 **初入社会的菜鸡程序员**
 
 ----
 
+* 小林
+    * [图解网络](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1337204681134751744&__biz=MzUxODAzNDg4NQ==#wechat_redirect)
+    * [图解操作系统](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1408057986861416450&__biz=MzUxODAzNDg4NQ==#wechat_redirect)
 
 * Mysql
 
