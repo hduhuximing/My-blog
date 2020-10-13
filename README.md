@@ -17,34 +17,50 @@
 - Github：https://github.com/Snailclimb/JavaGuide-Interview
 - 码云：https://gitee.com/SnailClimb/JavaGuide-Interview
 
-### 个人github
+### 一些github收集
 
 - [算法leetcode部分题解](https://github.com/hduhuximing/MathAndInterview)
 - [面试资料](https://github.com/hduhuximing/workspace)
 - [Spring的学习](https://github.com/hduhuximing/SpringLearn/network/alerts)
+- [电子书下载](https://github.com/iamshuaidi/CS-Book)
+- [帅地玩编程公众号](https://mp.weixin.qq.com/s/MArPUE8wmDNMAalvzoLgcA)
 ### 作者介绍
 
 **初入社会的菜鸡程序员**
 
 ----
-
 * 小林
     * [图解网络](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1337204681134751744&__biz=MzUxODAzNDg4NQ==#wechat_redirect)
     * [图解操作系统](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1408057986861416450&__biz=MzUxODAzNDg4NQ==#wechat_redirect)
+
+* java
+    * [java的main](./docs/java/java中main的修饰符要求.md)
 
 * Mysql
 
   * [mysql锁简单讲解](./docs/Mysql/面试命中率90%25的点%20——%20MySQL锁.md)
   * [mysql优化原理简单讲解](./docs/Mysql/MySQL优化原理简单讲解.md)
+  * [mysql三大日志](./docs/Mysql/必须了解的MySQL三大日志.md)
+  * [count(*)和count(1)](./docs/Mysql/count(1)和count()%20哪个效率高？.md)
+  * [图解sql](https://mp.weixin.qq.com/s/0lkJffdHPA5b-XDmJ8JA2g)
 
 * Spring
 
-  * [Spring常见注解](./docs/Spring/常见的%20Spring%20注解概览.md)
   * [SpringIOC的手动实现](./docs/Spring/SpringIOC.md)
   * [Spring面试题](./docs/Spring/Spring经典面试题汇总.md)
   * [IOC循环依赖](./docs/Spring/IOC之循环依赖处理.md)
   * [只有构造函数的循环依赖](./docs/Spring/Spring只有构造器注入的时候会出现循环依赖问题.md)
   * [AOP为什么用三级缓存以及AOP的](./docs/Spring/spring为什么用三级缓存以及AOP.md)
+  * [Springboot扩展点](./docs/Spring/Springboot启动扩展点.md)
+ 
+* 设计
+
+  * [API接口设计](./docs/设计/如何设计一个牛逼的%20API%20接口.md)
+
+* 网络
+
+  * [URL去重](./docs/网络/URL去重的6种方案(附详细代码).md)
+  * [TCP三次握手四次挥手以及11个状态](./docs/网络/TCP三次握手和四次挥手以及11种状态.md)
   
 * Reactor3翻译
 
@@ -80,6 +96,3 @@
 * Redis
 
   * [Redis变慢的原因](./docs/Redis/你的Redis为什么变慢了？.md)
-
-
-
