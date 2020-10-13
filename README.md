@@ -24,6 +24,7 @@
 - [Spring的学习](https://github.com/hduhuximing/SpringLearn/network/alerts)
 - [电子书下载](https://github.com/iamshuaidi/CS-Book)
 - [帅地玩编程公众号](https://mp.weixin.qq.com/s/MArPUE8wmDNMAalvzoLgcA)
+- [linux基本操作指令](https://mp.weixin.qq.com/s/Kog6AfXYINIDwKMpJMkGFQ)
 ### 作者介绍
 
 **初入社会的菜鸡程序员**
