@@ -38,6 +38,7 @@
 
 * java
     * [java的main](./docs/java/java中main的修饰符要求.md)
+    * [switch可传递的类型问题](./docs/java/switch.md)
 
 * Mysql
 
